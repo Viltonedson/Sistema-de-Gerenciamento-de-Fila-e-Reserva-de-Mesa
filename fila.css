@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  background-color: #121214;
+  color: #ffffff;
+  font: 300 16px/140% 'Roboto', sans-serif;
+}
+ 
+#logo {
+  padding-bottom: 10px;
+  text-align: center;
+}
+ 
+.container {
+  max-width: 690px;
+  margin: 0 auto;
+  padding: 20px 32px;
+}
+ 
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  border: 0;
+  background: #FFBD59;
+  border-radius: 10px;
+  padding: 7px 20px;
+  font: 700 12px/24px 'Roboto', sans-serif;
+  color: #00292E;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+ 
+button:hover {
+  background: #f36a1b;
+}
+ 
+#senhaAtual, #fila, #senhaAnterior, #filaPrioritaria, #historicoChamadas {
+  font: 400 14px/150% 'Roboto', sans-serif;
+  color: #C4C4cc;
+  border: 1px solid #ffffff1a;
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin-bottom: 20px;
+}
+ 
+#historicoChamadas table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+ 
+#historicoChamadas th, #historicoChamadas td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ffffff1a;
+}
+ 
+#historicoChamadas th {
+  background-color: #1c1c1f;
+  color: #f3f3f4;
+}
+ 
+#historicoChamadas tr:nth-child(even) {
+  background-color: #1c1c1f;
+}
+ 
+#historicoChamadas tr:hover {
+  background-color: #333;
+}
+ 
+.status-btn {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #FFBD59;
+  border-radius: 5px;
+  color: #00292E;
+  font: 700 12px 'Roboto', sans-serif;
+  border: none;
+  cursor: pointer;
+}
+ 
+.status-btn.atendido {
+  background-color: #4CAF50;
+}
+ 
+.status-btn:hover {
+  background-color: #f36a1b;
+}
+ 
+.legend {
+  font: 400 14px/150% 'Roboto', sans-serif;
+}

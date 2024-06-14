@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fila de Espera</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fila.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="menu.html">
+              <img src="img/mascate..png" alt="Logo do Restaurante">
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <legend class="legend">FILA DO RESTAURANTE</legend><br>
+            <button id="gerarSenha">Gerar Senha</button>
+            <button id="gerarSenhaPrioritaria">Gerar Senha Prioritária</button>
+ 
+            <div id="senhaAtual">
+                <strong>Senha atual:</strong> Nenhuma senha gerada ainda
+            </div>
+ 
+            <button id="proximaSenha">Próxima Senha</button>
+ 
+            <div id="senhaAnterior">
+                <strong>Senha anterior:</strong> Nenhuma senha chamada ainda
+            </div>
+ 
+            <div id="fila">
+                <strong>Fila:</strong> Nenhuma senha na fila
+            </div>
+ 
+            <div id="filaPrioritaria">
+                <strong>Fila Prioritária:</strong> Nenhuma senha na fila
+            </div>
+ 
+            <div id="historicoChamadas">
+                <strong>Histórico de Chamadas:</strong>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Senha</th>
+                            <th>Horário</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script src="fila.js"></script>
+</body>
+</html>
